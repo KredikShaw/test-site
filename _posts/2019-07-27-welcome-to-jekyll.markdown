@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: defaul
 title:  "Test title"
 date:   2019-07-27 12:51:16 +0300
 categories: jekyll update

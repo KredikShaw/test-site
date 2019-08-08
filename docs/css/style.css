@@ -1,1 +1,6 @@
 @import 'navigation.css';
+@import 'animations.css';
+
+body{
+    background-color: #e0e0e0;
+}

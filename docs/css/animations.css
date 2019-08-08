@@ -1,0 +1,25 @@
+li:nth-child(1){
+    opacity:0;
+    animation: slideIn 0.25s linear 0s forwards;
+}
+
+li:nth-child(2){
+    opacity:0;
+    animation: slideIn 0.25s linear 0.25s forwards;
+}
+
+li:nth-child(3){
+    opacity:0;
+    animation: slideIn 0.25s linear 0.5s forwards;
+}
+
+@keyframes slideIn{
+    from{
+        opacity:0;
+        transform:translateX(-1em);
+    }
+    to{
+        opacity:1;
+        transform:translateX(0em);
+    }
+}

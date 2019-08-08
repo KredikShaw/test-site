@@ -27,10 +27,10 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 destination: docs
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# baseurl: "docs" # the subpath of your site, e.g. /blog
+# url: "docs" # the base hostname & protocol for your site, e.g. http://example.com
 theme: minima
-url: http://localhost:4000/docs
+url: http://localhost:4000
 plugins:
   - jekyll-feed
 

@@ -1,8 +1,0 @@
-p{
-    font-size:30px;
-    color: teal;    
-}
-
-p:hover{
-    transform: translateX(10px);    
-}

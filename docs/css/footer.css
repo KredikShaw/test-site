@@ -4,9 +4,9 @@ footer section.social i{
 }
 
 footer{
-    background-color: #723881; 
+    background-color: #000000; 
     padding:1em;
-    border-radius: 0.5em;
+    /* border-radius: 0.5em; */
     height: 5em;
     display: flex;
     align-items: center;

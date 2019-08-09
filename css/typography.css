@@ -4,6 +4,7 @@ html{
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     height: 100%;
+    color: white;
 }
 
 *, *::before, *::after{
@@ -12,4 +13,9 @@ html{
 
 body{
     height: 100%;
+    margin: 0;
+}
+
+body header{
+    padding: 0 0.5em;
 }

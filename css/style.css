@@ -1,6 +1,7 @@
 @import 'navigation.css';
 @import 'animations.css';
 @import 'typography.css';
+@import 'footer.css';
 
 body{
     background-color: #e0e0e0;

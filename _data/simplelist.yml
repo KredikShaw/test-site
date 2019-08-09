@@ -3,7 +3,6 @@ docs:
 
 - title: Home
   url: index.html
-  icon: fa-address-card
 
 - title: About
   url: about.html

@@ -2,21 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
+    <title>KS Ventures - {{ page.title }}</title>
+    <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="{{ site.baseurl }}/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
   </head>
   <body>
     <nav>
-      <!-- <a href="/">Home</a>
-      <a href="/blog/">Blog</a> -->
       {% include navigation.html %}
     </nav>
-    <h1>{{ page.title }}</h1>
-    <section>
+    <main>
       {{ content }}
-    </section>
-    <footer>
-      &copy; to me
-    </footer>
+    </main>
   </body>
 </html>

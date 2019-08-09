@@ -1,6 +1,33 @@
 @import 'navigation.css';
 @import 'animations.css';
+@import 'typography.css';
 
 body{
     background-color: #e0e0e0;
+}
+
+main{
+    padding: 0.5em 0;
+}
+
+.logo{
+    width:15em;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header section h1{
+    font-size: 2.5rem;
+    color: #723881;
+    font-weight: bold;
+}
+
+header section h2{
+    color: #723881;
+    text-align: right;
+    font-style: italic;
 }

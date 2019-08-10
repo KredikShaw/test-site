@@ -18,13 +18,13 @@ section.company-description, section.work-description, section.numbers-descripti
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20em;
+    padding: 5% 0;
 }
 
 section.company-description p, section.work-description p{
     font-size: 1.5rem;
     color: black;
-    padding:0 20rem;
+    padding:0 15%;
     text-align: justify;
 }
 

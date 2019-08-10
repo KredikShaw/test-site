@@ -10,8 +10,12 @@ body{
     padding: 0.5em 0;
 } */
 
+div.logo{
+    padding: 0 5%;
+}
+
 div.logo img{
-    width:15em;
+    width:15rem;
 }
 
 div.logo h1{
@@ -46,16 +50,17 @@ section.founder{
     display: flex;
     justify-content: center;
     background-color: #AA1111;
-    padding: 3em;
+    padding: 3%;
 }
 
 section.founder div{
     display: flex;
-    width:50%;
+    width:50rem;
 }
 
 section.founder div img{
     width:50%;
+    object-fit: cover;
 }
 
 section.founder div div.text{
@@ -78,11 +83,13 @@ section.founder div div.text p{
 
 section.work-with-us{
     display:flex;
+    flex-grow: 5;
+    flex-shrink: 4;
     justify-content: space-between;
     align-items: center;
-    padding: 0 25em;
+    padding: 0 15%;
     background-color: #EBEBEB;
-    height: 10em;
+    height: 10rem;
 }
 
 section.work-with-us h2{

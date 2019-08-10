@@ -1,3 +1,4 @@
+<input type="checkbox" id="toggle">
 <ul>
    {% for item in site.data.simplelist.docs %}
       <li>
@@ -5,4 +6,5 @@
          <a href="{{ item.url }}">{{ item.title }}</a>
       </li>
    {% endfor %}
+
 </ul>

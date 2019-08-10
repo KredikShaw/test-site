@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Lexend+Exa&display=swap');
 
 body{
     /* background-color: #e0e0e0; */
@@ -9,11 +10,18 @@ body{
     padding: 0.5em 0;
 } */
 
-.logo{
+div.logo img{
     width:15em;
 }
 
-header{
+div.logo h1{
+    width:100%;
+    text-align: center;
+    font-family: 'Lexend Exa', sans-serif;
+}
+
+
+header.index{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,13 +30,13 @@ header{
     height: 30em;
 }
 
-header section h1{
+header.index section h1{
     font-size: 2.5rem;
     color: #ffffff;
     font-weight: bold;
 }
 
-header section h2{
+header.index section h2{
     color: #ffffff;
     text-align: right;
     font-style: italic;

@@ -1,0 +1,70 @@
+section.who-are-we, section.numbers, section.what-we-do{    
+    padding-bottom: 5em;
+}
+
+section.who-are-we h1, section.who-are-we h2, section.what-we-do h1, section.what-we-do h2, section.numbers h1, section.numbers h2{
+    text-align: center;
+    margin:0;
+    padding: 0.75em 0;
+}
+
+section.who-are-we h1, section.what-we-do h1, section.numbers h1{
+    font-size: 3em;
+    padding-top: 1.5em;
+}
+
+section.company-description, section.work-description, section.numbers-description{
+    background-color: #EBEBEB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20em;
+}
+
+section.company-description p, section.work-description p{
+    font-size: 1.5rem;
+    color: black;
+    padding:0 20rem;
+    text-align: justify;
+}
+
+section.work-description{
+    background-color: #AA1111;
+}
+
+section.work-description p{
+    color:white;
+}
+
+section.what-we-do{
+    background-image: url('../images/growth.png');
+    background-size: cover;
+}
+
+section.numbers{
+    background-image: url('../images/numbers.jpg');
+    background-size: cover;
+}
+
+section.numbers-description{
+    justify-content: space-between;
+}
+
+section.numbers-description section{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+section.numbers-description section h1{
+    color: black;
+    font-size:4rem;
+    width: 100%;
+    text-align:center;
+    margin: 0;
+}
+
+section.numbers-description section h2{
+    color: black;
+    font-size:1.5rem;
+}

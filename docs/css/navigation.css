@@ -33,3 +33,40 @@ nav ul li a{
     font-size: 2em;
     color:#ffffff;
 }
+
+#toggle{
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+}
+
+.button-wrapper{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+
+.menu-button{
+    font-size:4rem;
+    display:none;
+}
+
+@media (max-width:600px){
+    .menu-button{
+        display: block;
+    }
+
+    nav ul{
+        display: none;
+        width:100%;
+    }
+
+    nav ul li{
+        display: flex;
+        justify-content: center;
+    }
+
+    #toggle:checked + ul{
+        display: block;
+    }
+}

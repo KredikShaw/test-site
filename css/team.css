@@ -1,0 +1,46 @@
+section.team-header{
+    font-size: 1.85rem;
+    height: 20em;
+    text-align: center;
+    padding-top: 5em;
+}
+
+section.chiefs{
+    background-color: #EBEBEB;
+}
+
+section.chiefs div.container{
+    display: flex;
+    justify-content: space-between; 
+    align-content: space-between;   
+    flex-wrap: wrap;    
+    height:125em;
+    padding: 5em;
+}
+
+section.chiefs div div.card{
+    width:30%;
+    height: 30%;
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.2);
+    padding-bottom: 2em;
+}
+
+section.chiefs div div img{
+    width:100%;
+    object-fit: cover;
+    height: 80%;
+    border-bottom: 0.1em gray solid;
+}
+
+section.chiefs div div h1{
+    font-size: 1.5rem;
+}
+
+section.chiefs div div h2{
+    font-size: 1rem;
+}
+
+section.chiefs div div h1, section.chiefs div div h2{
+    color:black;
+    text-align: center;
+}

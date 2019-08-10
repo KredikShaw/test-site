@@ -7,8 +7,11 @@ docs:
 - title: About
   url: about.html
 
+- title: Team
+  url: team.html
+
 - title: Contacts
   url: contacts.html
 
 - title: Portfolio
-  url: portfolio.html  
+  url: portfolio.html 

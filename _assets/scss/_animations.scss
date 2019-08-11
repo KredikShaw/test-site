@@ -63,4 +63,27 @@ nav li {
         transform: translateX(0);
     }
 }
+
+div.card:hover{
+  transform: scale(1.1);
+  transition: 1s;
+
+}
+
+div.card{
+  transition: 1s;
+}
+
+div.button{
+  animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+  from{
+      box-shadow: 0px 0px 2px 2px #AA1111;
+  }
+  to{
+      box-shadow: 0px 0px 20px 10px #AA1111;
+  }
+}
   

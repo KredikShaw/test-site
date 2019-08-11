@@ -16,6 +16,7 @@ nav ul{
     padding:0;
     width:40em;
     justify-content: space-between;
+    /* position: fixed; */
 }
 
 nav ul li{

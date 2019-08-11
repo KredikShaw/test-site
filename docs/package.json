@@ -1,5 +1,5 @@
 {
-  "name": "Mycroft",
+  "name": "test-site",
   "version": "1.0.0",
   "description": "Jekyll theme by the best HTML & CSS Course",
   "main": "gulpfile.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+git@github.com:kdankov/su-jekyll-mycroft.git"
+    "url": "git+git@github.com:kredikshaw/test-site.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": ""
+    "url": "https://kredikshaw.github.io/test-site"
   },
-  "homepage": "",
+  "homepage": "https://kredikshaw.github.io/test-site",
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "child_process": "^1.0.2",

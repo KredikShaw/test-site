@@ -4,6 +4,7 @@ section.companies{
     align-items: center;
     font-size: 1.85rem;
     height: 20em;
+    text-align: center;
 }
 
 section.portfolio{
@@ -14,9 +15,8 @@ section.portfolio{
 section div.gallery{
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(8, 5vw);
+    grid-template-rows: repeat(auto, 5vw);
     object-fit: cover;
-    grid-auto-flow: dense;
 
 }
 

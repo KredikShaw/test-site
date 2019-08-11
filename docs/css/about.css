@@ -5,7 +5,7 @@ section.who-are-we, section.numbers, section.what-we-do{
 section.who-are-we h1, section.who-are-we h2, section.what-we-do h1, section.what-we-do h2, section.numbers h1, section.numbers h2{
     text-align: center;
     margin:0;
-    padding: 0.75em 0;
+    padding: 0.75em;
 }
 
 section.who-are-we h1, section.what-we-do h1, section.numbers h1{
@@ -54,6 +54,7 @@ section.numbers-description section{
     display: flex;
     flex-wrap:wrap;
     justify-content: center;
+    height: 10em;
 }
 
 section.numbers-description section h1{
@@ -67,4 +68,5 @@ section.numbers-description section h1{
 section.numbers-description section h2{
     color: black;
     font-size:1.5rem;
+    text-align:center;
 }

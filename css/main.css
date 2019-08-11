@@ -31,7 +31,7 @@ header.index{
     align-items: center;
     margin:1em;
     /* margin-bottom: 15em; */
-    height: 30em;
+    height: 50%;
 }
 
 header.index section h1{
@@ -95,6 +95,7 @@ section.work-with-us{
 section.work-with-us h2{
     color: black;
     font-size: 2.5rem;
+    margin:0;
 }
 
 section.work-with-us div.button{
@@ -114,4 +115,26 @@ section.work-with-us div.button p{
 section.work-with-us div.button:hover{
     background-color: #AA1111;
     cursor: pointer;
+}
+
+@media ( max-width: 900px ) {
+    header.index{
+        display: block;
+    }
+    div.logo{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    section.work-with-us{
+        display: block;
+        text-align: center;
+    }
+    div.button p{
+        width:100%;
+        text-align: center;
+    }
+    div.button{
+        margin:0 10%;
+    }
 }

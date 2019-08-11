@@ -69,4 +69,7 @@ nav ul li a{
     #toggle:checked + ul{
         display: block;
     }
+    nav ul li a{
+        font-size:3rem;
+    }
 }

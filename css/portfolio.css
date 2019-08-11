@@ -23,7 +23,7 @@ section div.gallery{
 @media ( max-width: 1024px ) {
     section div.gallery{
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: wrap;        
     }
 }
 

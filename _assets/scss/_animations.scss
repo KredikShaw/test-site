@@ -32,3 +32,35 @@ nav li {
       transform: translateX(0em);
     }
   }
+
+  .card:hover {
+    animation: shake 0.5s ease;
+    animation-fill-mode: both;
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+
+    20% {
+        transform: translateX(-2em);
+    }
+
+    40% {
+        transform: translateX(2em);
+    }
+
+    60% {
+        transform: translateX(-1em);
+    }
+
+    80% {
+        transform: translateX(1em);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+  

@@ -1,0 +1,82 @@
+section {
+    &.who-are-we, &.numbers, &.what-we-do {
+      padding-bottom: 5em;
+    }
+    &.who-are-we {
+      h1, h2 {
+        text-align: center;
+        margin: 0;
+        padding: 0.75em;
+      }
+    }
+    &.what-we-do {
+      h1, h2 {
+        text-align: center;
+        margin: 0;
+        padding: 0.75em;
+      }
+    }
+    &.numbers {
+      h1, h2 {
+        text-align: center;
+        margin: 0;
+        padding: 0.75em;
+      }
+    }
+    &.who-are-we h1, &.what-we-do h1, &.numbers h1 {
+      font-size: 3em;
+      padding-top: 1.5em;
+    }
+    &.company-description, &.work-description, &.numbers-description {
+      background-color: #EBEBEB;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 5% 0;
+    }
+    &.company-description p {
+      font-size: 1.5rem;
+      color: black;
+      padding: 0 15%;
+      text-align: justify;
+    }
+    &.work-description {
+      p {
+        font-size: 1.5rem;
+        color: black;
+        padding: 0 15%;
+        text-align: justify;
+        color: white;
+      }
+      background-color: #AA1111;
+    }
+    &.what-we-do {
+      background-image: url('../images/growth.png');
+      background-size: cover;
+    }
+    &.numbers {
+      background-image: url('../images/numbers.jpg');
+      background-size: cover;
+    }
+    &.numbers-description {
+      justify-content: space-between;
+      section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 10em;
+        h1 {
+          color: black;
+          font-size: 4rem;
+          width: 100%;
+          text-align: center;
+          margin: 0;
+        }
+        h2 {
+          color: black;
+          font-size: 1.5rem;
+          text-align: center;
+        }
+      }
+    }
+  }

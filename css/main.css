@@ -16,7 +16,7 @@ div.logo{
 
 div.logo img{
     width:15rem;
-    height: auto;
+    height: 15rem;
 }
 
 div.logo h1{
@@ -61,7 +61,7 @@ section.founder div{
 
 section.founder div img{
     width:50%;
-    height: auto;
+    height: 100%;
     object-fit: cover;
 }
 

@@ -55,6 +55,7 @@ nav ul li a{
 @media (max-width:600px){
     .menu-button{
         display: block;
+        padding-top:1rem;
     }
 
     nav ul{

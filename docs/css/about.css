@@ -18,7 +18,8 @@ section.company-description, section.work-description, section.numbers-descripti
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5% 0;
+    padding-top: 5%;
+    padding-bottom:5%;
 }
 
 section.company-description p, section.work-description p{
@@ -29,6 +30,7 @@ section.company-description p, section.work-description p{
 }
 
 section.work-description{
+    /* background-color: #AA1111; */
     background-color: #AA1111;
 }
 
@@ -48,6 +50,8 @@ section.numbers{
 
 section.numbers-description{
     justify-content: space-between;
+    height: 20em;
+    padding: 5% 10%;
 }
 
 section.numbers-description section{

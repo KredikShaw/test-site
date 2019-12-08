@@ -6,6 +6,7 @@ section.title{
 
 section.title h1{
     font-size: 3rem;
+    height: 5em;
 }
 
 section.contact-form{
@@ -60,11 +61,14 @@ section.location{
     justify-content: center;
     background-color: #EBEBEB;
     padding: 5rem 0;
+    height:50em;
+    align-items: center;
 }
 
 section.location div.address{
-    width:65%;
+    width:100%;
     display:flex;
+    align-items: center;
 }
 
 section.location div.address img{
@@ -86,3 +90,7 @@ section.location div div{
 section.location div div h1{
     font-size:2.5rem;
 }
+
+
+.mapouter{position:relative;text-align:right;height:500px;width:600px;}
+.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}

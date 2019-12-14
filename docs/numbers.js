@@ -60,9 +60,9 @@ var observer = new IntersectionObserver(function(entries) {
 	// isIntersecting is false when element and viewport don't overlap
 	if(entries[0].isIntersecting === true)
         console.log('Element has just become visible in screen');
-        animateValue("value1", 0, 150, 2000);
-        animateValue("value2", 0, 100, 2000);
-        kanimateValue("value3", 0, 3, 2000);
+        animateValue("value1", 0, 150, 1600);
+        animateValue("value2", 0, 100, 1600);
+        kanimateValue("value3", 0, 3, 1600);
 }, { threshold: [0] });
 
 observer.observe(document.querySelector("#aaa"));

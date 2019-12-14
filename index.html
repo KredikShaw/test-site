@@ -3,9 +3,12 @@ title: Home
 layout: default
 home: true
 ---
-<header class="index"> 
+<link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
+
+<div id="particles-js">
+<header class="index">
     <div class="logo">
-        <img src="images/logo.png" alt="logo" class="logo">
+        <img src="images/logo.png" alt="logo" class="logo" id="logo">
         <h1>KS Ventures</h1>
     </div>
     <section>
@@ -13,6 +16,7 @@ home: true
         <h2>At KS Ventures we help you achieve what you have on your mind</h2>        
     </section>
 </header>
+</div>
 
 <section class="founder">
     <div>
@@ -33,3 +37,6 @@ home: true
         <p>Start the process</p>
     </div>
 </section>
+
+<script type="text/javascript" scr="particles.js"></script>
+<script type="text/javascript" src="app.js"></script>

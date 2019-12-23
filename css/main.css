@@ -111,6 +111,7 @@ section.work-with-us div.button{
     padding: 0.75em;
     align-items: center;
     display: flex;
+    border-radius: 12px;
 }
 
 section.work-with-us div.button p{
